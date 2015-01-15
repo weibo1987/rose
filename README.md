@@ -5,3 +5,7 @@
 web容器：resin4.0.35
 IDE:Eclipse
 
+#resin4使用参数
+com.caucho.server.resin.Resin
+-conf G:\self_project\rose\resin.xml
+-root-directory G:\self_project\rose\
