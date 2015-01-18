@@ -12,6 +12,6 @@ public class HelloController {
 	public String world(Invocation inv) {
 		log.info("piao guo .....");
 		inv.addModel("now", new Date());
-		return "helloworld";
+		return "@"+"{test:123}";
 	}
 }
